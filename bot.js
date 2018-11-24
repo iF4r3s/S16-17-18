@@ -104,7 +104,7 @@ bot18.on('message', message => {
   let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
   if(!args) return message.reply(`شو يدك امي تقول؟؟؟`);
-  if(command == "f3"){
+  if(command == "f18"){
     message.channel.send(args.join(" "))
   }
 });
