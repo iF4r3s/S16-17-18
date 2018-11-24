@@ -38,7 +38,7 @@ bot16.on('message', message => {
 });
 
 
-bot16.login(process.env.FB6);
+bot16.login(process.env.FB16);
 ////////////////////////
 ////////////////////////
 const bot17 = new Discord.Client();
